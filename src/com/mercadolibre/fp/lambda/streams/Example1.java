@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class Example1 {
     public static void main(String[] args) {
-        List<String> stringList = DataUtil.LISTA_ELEMENTOS;
+        List<String> stringList = DataUtil.ELEMENT_LIST;
 
         Stream<String> stringStream = stringList.stream();
 
